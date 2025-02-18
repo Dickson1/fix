@@ -6,10 +6,26 @@
         "src/*",
         "page/*"
       ]
-    }
+    },
+    "target": "es6", // Specify the ECMAScript target version
+    "module": "esnext", // Use the latest module system
+    "lib": ["dom", "esnext"], // Include DOM and ESNext libraries
+    "strict": true, // Enable all strict type-checking options
+    "esModuleInterop": true, // Enable compatibility with CommonJS modules
+    "skipLibCheck": true, // Skip type-checking of declaration files
+    "forceConsistentCasingInFileNames": true, // Ensure consistent casing in file names
+    "moduleResolution": "node", // Use Node.js-style module resolution
+    "resolveJsonModule": true, // Allow importing JSON files
+    "isolatedModules": true, // Ensure each file can be transpiled independently
+    "noEmit": true // Do not emit JavaScript files (for Babel or other transpilers)
   },
   "include": [
     "src/**/*",
     "page/**/*"
+  ],
+  "exclude": [
+    "node_modules", // Exclude node_modules from compilation
+    "**/*.spec.ts", // Exclude test files (if any)
+    "**/*.test.ts" // Exclude test files (if any)
   ]
 }

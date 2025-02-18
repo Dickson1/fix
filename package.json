@@ -28,6 +28,7 @@
     "emoji-picker-react": "^4.4.11",
     "eslint": "8.29.0",
     "eslint-config-next": "13.0.6",
+    "express": "^4.21.2",
     "firebase": "^9.15.0",
     "formik": "^2.2.9",
     "google-map-react": "^2.2.0",
@@ -40,10 +41,10 @@
     "next": "13.0.6",
     "nprogress": "^0.2.0",
     "prop-types": "^15.8.1",
-    "react": "18.2.0",
+    "react": "^17.0.2",
     "react-apple-login": "^1.1.6",
     "react-countdown": "^2.3.5",
-    "react-dom": "18.2.0",
+    "react-dom": "^17.0.2",
     "react-facebook-login": "^4.1.1",
     "react-geolocated": "^4.0.3",
     "react-hot-toast": "^2.4.0",
@@ -66,5 +67,16 @@
   },
   "devDependencies": {
     "prettier": "2.8.0"
-  }
+  },
+  "description": "This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).",
+  "main": "next.config.js",
+  "repository": "git+https://github.com/Dickson1/fix.git",
+  "keywords": [],
+  "author": "Dickson1 <dicksonmagazi@gmail.com>",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Dickson1/fix/issues"
+  },
+  "homepage": "https://github.com/Dickson1/fix#readme"
 }

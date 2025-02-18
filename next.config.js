@@ -2,7 +2,7 @@
 const nextConfig = {
   reactStrictMode: true,
   images: {
-    domains: ["https://fix-faster.vercel.app/"],
+    domains: ["https://fix.co.tz"],
   },
 };
 
